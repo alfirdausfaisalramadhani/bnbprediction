@@ -6,7 +6,7 @@ def app():
     st.subheader('SEJARAH BINANCE COIN')
     
     image = Image.open('logo.png')
-    st.image(image, caption=None, width=700, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
+    st.image(image, caption=None, width=700, use_column_width='False', clamp=False, channels="RGB", output_format="auto")
     
     st.write('Diluncurkan pertama kali pada 26 Juni hingga 3 Juli 2017 dalam jaringan blockchain Ethereum, BNB memiliki harga penawarannya perdana sebesar 1 ETH untuk 2.700 BNB atau 1 BTC untuk 20.000 BNB.')
     st.write('Kendati ditawarkan perdana dalam ICO, aset digital ini tidak mengklaim sebagai produk investasi ataupun trading. Menurut pengembangnya, BNB adalah alat tukar yang digunakan untuk pembayaran, utamanya di platform yang berada dalam lingkup Binance, seperti binance.com, Binance DEX, Binance Chain, dan aplikasi di atas Binance Smart Chain.')

@@ -6,7 +6,7 @@ def app():
     st.subheader('SEJARAH BINANCE COIN')
     
     image = Image.open('logo.png')
-    st.image(image, caption='')
+    st.image(image, caption=None, width=700, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
     
     st.write('Diluncurkan pertama kali pada 26 Juni hingga 3 Juli 2017 dalam jaringan blockchain Ethereum, BNB memiliki harga penawarannya perdana sebesar 1 ETH untuk 2.700 BNB atau 1 BTC untuk 20.000 BNB.')
     st.write('Kendati ditawarkan perdana dalam ICO, aset digital ini tidak mengklaim sebagai produk investasi ataupun trading. Menurut pengembangnya, BNB adalah alat tukar yang digunakan untuk pembayaran, utamanya di platform yang berada dalam lingkup Binance, seperti binance.com, Binance DEX, Binance Chain, dan aplikasi di atas Binance Smart Chain.')
@@ -17,7 +17,7 @@ def app():
     st.subheader('SIAPAKAH PENDIRI BNB COIN?')
     
     image = Image.open('cz.jpg')
-    st.image(image, caption='')
+    st.image(image, caption=None, width=700, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
     
     st.write('Nama Changpeng Zhao atau lebih dikenal dengan panggilan CZ merupakan salah satu tokoh dalam dunia kripto yang namanya tersorot sebagai pendiri sekaligus CEO Binance.')
     st.write('Bagi sebagian orang, nama Changpeng Zhao mungkin asing di telinga. Namun bagi kalangan investor dan pemain di dunia kripto, CZ adalah sosok yang fenomenal karena mampu melejitkan Binance dalam hitungan minggu.')
@@ -28,7 +28,7 @@ def app():
     st.subheader('APA ITU BNB COIN?')
     
     image = Image.open('apaitubnb.jpg')
-    st.image(image, caption='')
+    st.image(image, caption=None, width=700, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
     
     st.write('BNB saat ini dirilis dalam tiga format. Di samping ERP-20 dalam Ethereum blockchain, BNB pun terbit dalam juga BEP-2 dan BEP-20 yang merupakan koin “asli” dalam jaringan Binance chain dan Binance smart chain.')
     st.write('Kendati begitu, suplai BNB dibatasi sebanyak maksimal 200 juta koin saja. Alasannya adalah  selaku pengembang BNB, Binance diketahui secara berkala melakukan pemusnahan terhadap suplai BNB untuk menjamin pasokannya tidak terlalu banyak.')
@@ -38,7 +38,7 @@ def app():
     st.subheader('Penggunaan BNB COIN')
     
     image = Image.open('penggunaanbnb.jpg')
-    st.image(image, caption='')
+    st.image(image, caption=None, width=700, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
     
     st.write('Seperti dijelaskan di atas, BNB diperkenalkan sebagai alat tukar alih-alih instrumen investasi. Akan tetapi, pada akhirnya, bagaimana BNB digunakan kembali kepada para selaku penggunanya.')
     st.write('Menurut klaim pihak Binance, jutaan BNB sudah digunakan untuk membiayai perjalanan dan membeli cindera mata virtual. BNB pun bisa dapat dalam pinjaman, sebagai hadiah, untuk membuat smart contracts, serta transaksi-transaksi lainnya.')
@@ -50,7 +50,7 @@ def app():
     st.subheader('Cara kerja BNB COIN')
     
     image = Image.open('carakerja.jpg')
-    st.image(image, caption='')
+    st.image(image, caption=None, width=700, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
     
     st.write('BNB coin ini pada awalnya dimulai sebagai salah satu token ERC-20 tradisional di jaringan Ethereum. Lantas, Binance akhirnya memperkenalkan blockchain-nya sendiri.')
     st.write('Koin yang dikeluarkan dari blockchain Binance ini bakal diamankan oleh mekanisme konsensus Bizantine-fault-tolerant (BFT) Tendermint. Token ERC-20 menggunakan konsensus proof-of-stake (PoS), yang memungkinkan perhitungan sangat terukur pembuatan smart contract.')
@@ -60,7 +60,7 @@ def app():
     st.subheader('Keunggulan BNB COIN')
     
     image = Image.open('keunggulanbnb.jpg')
-    st.image(image, caption='')
+    st.image(image, caption=None, width=700, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
     
     st.write('Binance sudah berkembang sebagai platform exchange kripto terbesar dengan kantor cabang di beberapa negara. Adapun organisasi sampingan Binance pun memiliki daya tarik yang signifikan. Tentu saja, hal itu akan memperkuat fundamental dari BNB coin.')
     st.write('Keunggulan dari BNB coin, salah satunya, adalah dorongan terhadap pengembangannya. Binance pada mulanya hanya untuk trading kripto, tetapi sekarang perusahaan itu sudah memperbanyak layanannya di sejumlah bidang.')

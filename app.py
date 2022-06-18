@@ -12,7 +12,7 @@ st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootst
 
 st.markdown("""
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #FF4B4B;">
-  <a class="navbar-brand" href="#" target="_blank">PREDIKSI BINANCE COIN</a>
+  <a class="navbar-brand" target="_blank">PREDIKSI BINANCE COIN</a>
 </nav>
 """, unsafe_allow_html=True)
 

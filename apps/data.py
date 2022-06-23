@@ -37,7 +37,7 @@ def app():
     #Memuat data scrapping
     data_load_state = st.text('Memuat Data...') 
     data = load_data(selected_stock)
-    data_load_state.text('Memuat Data... Selesai!')
+    data_load_state.text('Memuat Data, harap tunggu hingga selesai.')
 
     st.subheader('Data Harga ')
     st.write(data.tail())

@@ -66,7 +66,15 @@ def app():
 
     st.write('Plot Prediksi untuk {n_years} Tahunan')
     fig1 = plot_plotly(m, forecast)
+    fig1.update_layout(
+                xaxis_rangeselector_font_color='black',
+                xaxis_rangeselector_activecolor='#7289DA',
+                xaxis_rangeselector_bgcolor='#FFFFFF',
+                )
     st.plotly_chart(fig1)
+    st.subheader('Komponen Prediksi')
+    fig2 = m.plot_components(forecast)
+    st.write(fig2)
 
     st.subheader("Komponen Prediksi")
     fig2 = m.plot_components(forecast)

@@ -75,10 +75,6 @@ def app():
     st.subheader('Komponen Prediksi')
     fig2 = m.plot_components(forecast)
     st.write(fig2)
-
-    st.subheader("Komponen Prediksi")
-    fig2 = m.plot_components(forecast)
-    st.write(fig2)
     
     st.subheader('Prediksi Grafik MAPE')
     df_cv = cross_validation(m, initial='730 days', period='180 days', horizon = '365 days')

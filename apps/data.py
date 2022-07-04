@@ -18,9 +18,9 @@ def app():
     #Scrapping data dari yahoo finance
     START = "2017-05-21"
     TODAY = date.today().strftime("%Y-%m-%d")
-
+ 
     #Coin yang akan di input
-    stocks = ('BNB-USD', )
+    stocks = ('BNB-USD', 'NEAR-USD', 'FTM-USD', 'GMT-USD', 'ADA-USD', 'LIT-USD', 'YRT-USD', )
     selected_stock = st.selectbox('Prediksi Data', stocks)
 
     #Lama durasi prediksi

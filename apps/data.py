@@ -18,9 +18,9 @@ def app():
     #Scrapping data dari yahoo finance
     START = "2017-05-21"
     TODAY = date.today().strftime("%Y-%m-%d")
- 
+
     #Coin yang akan di input
-    stocks = ('BNB-USD', 'NEAR-USD', 'FTM-USD', 'GMT-USD', 'ADA-USD', 'LIT-USD', 'YRT-USD', )
+    stocks = ('BNB-USD', 'SHIB-USD', 'MATIC-USD', )
     selected_stock = st.selectbox('Prediksi Data', stocks)
 
     #Lama durasi prediksi
@@ -52,6 +52,7 @@ def app():
         
     plot_raw_data()
 
+    #Modelling data
     df_train = data[['Date','Close']]
     df_train = df_train.rename(columns={"Date": "ds", "Close": "y"})
 
@@ -68,14 +69,14 @@ def app():
     fig1 = plot_plotly(m, forecast)
     fig1.update_layout(
                 xaxis_rangeselector_font_color='black',
-                xaxis_rangeselector_activecolor='#FF4B4B',
+                xaxis_rangeselector_activecolor='#7289DA',
                 xaxis_rangeselector_bgcolor='#FFFFFF',
                 )
     st.plotly_chart(fig1)
     st.subheader('Komponen Prediksi')
     fig2 = m.plot_components(forecast)
     st.write(fig2)
-    
+
     st.subheader('Prediksi Grafik MAPE')
     df_cv = cross_validation(m, initial='730 days', period='180 days', horizon = '365 days')
     fig3 = plot_cross_validation_metric(df_cv, metric='mape')
@@ -84,4 +85,6 @@ def app():
     st.write(fig3)
     
     st.subheader("Tabel Cross Validation")
+    df_p = performance_metrics(df_cv)
+    df_p.head()
     st.code(df_p)

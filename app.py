@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit_option_menu import option_menu
 from multiapp import MultiApp
 from apps import home, data, model
 

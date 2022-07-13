@@ -19,5 +19,5 @@ def app():
     
     
     st.subheader('BNB, CRYPTO YANG WAJIB KALIAN MILIKI! INI ALASANNYA KENAPA BNB BISA PUMP KERAS BELAKANGAN INI!')
-    vid_file = f'''<iframe width="100%" height="400" src="https://www.youtube.com/embed/c_wLRIT8hw8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'''
+    vid_file = f'''<iframe width= "100%" height="400" src="https://www.youtube.com/embed/c_wLRIT8hw8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'''
     st.markdown(vid_file,unsafe_allow_html=True)

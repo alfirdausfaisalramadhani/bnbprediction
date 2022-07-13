@@ -1,4 +1,5 @@
 import streamlit as st
+from streamlit_option_menu import option_menu
 from multiapp import MultiApp
 from apps import home, data, model
 
@@ -17,4 +18,5 @@ st.markdown("""
 app.add_app("BERANDA", home.app)
 app.add_app("PREDIKSI", data.app)
 app.add_app("VIDEO SEPUTAR BINANCE", model.app)
+
 app.run()

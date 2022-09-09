@@ -20,7 +20,7 @@ def app():
     TODAY = date.today().strftime("%Y-%m-%d")
 
     #Coin yang akan di input
-    stocks = ('BNB-USD', 'SHIB-USD', 'MATIC-USD', )
+    stocks = ('BNB-USD', )
     selected_stock = st.selectbox('Prediksi Data', stocks)
 
     #Lama durasi prediksi

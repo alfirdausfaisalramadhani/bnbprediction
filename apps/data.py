@@ -69,7 +69,7 @@ def app():
     fig1 = plot_plotly(m, forecast)
     fig1.update_layout(
                 xaxis_rangeselector_font_color='black',
-                xaxis_rangeselector_activecolor='#7289DA',
+                xaxis_rangeselector_activecolor='#FF0000',
                 xaxis_rangeselector_bgcolor='#FFFFFF',
                 )
     st.plotly_chart(fig1)
